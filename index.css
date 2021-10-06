@@ -1,0 +1,804 @@
+@media screen and (min-width:770px) {
+.first
+{
+    font-weight:500;
+}
+.second
+{
+    font-weight: 100;
+}
+
+.p1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    margin-left: 350px;
+    margin-top: 160px;
+    
+
+}
+.icon{
+    font-size: 35px;
+    margin-left: 330px;
+
+
+    color: tomato;
+}
+.add
+{
+    font-weight: 350; 
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.box
+{
+    display: inline-block;
+    height: 250px;
+    width: 170px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.box1
+{
+
+    font-size: 18px;
+    color: tomato;
+    margin-left: 360px;
+    margin-top: 60px;
+    
+    
+
+    
+}
+.heading
+{
+    font-weight: 100;
+    /* padding-left: 15px; */
+    color: tomato;
+    text-decoration: none;
+}
+.middle
+{
+    
+    text-decoration: line-through 2px red;
+    color: red;
+    padding-left: 0px;
+    padding-top: 22px;
+    line-height: 2px;
+}
+.preicon
+{
+    display: none;
+}
+
+.box2
+{
+
+    font-size: 18px;
+    color: tomato;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.box3
+{
+
+    font-size: 18px;
+    color: tomato;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.box4{
+    display: none;
+}
+
+    
+
+.box5
+{
+    display: none;
+}
+.sub2
+{
+    display: none;
+}
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  h1:before,
+  h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+  }
+  
+  h1:before {
+    right: 0.5em;
+    margin-left: -42%;
+  }
+  
+  h1:after {
+    left: 0.5em;
+    margin-right: -40%;
+  }
+
+  .icon1
+  {
+    font-size: 32px;
+    margin-left: 600px;
+    color: tomato;
+    text-decoration: none;
+
+  }
+
+  .sub
+  {
+    margin-top: 40px;
+  }
+  .sub3{
+      display: none;
+  }
+  .txt{
+      color: black;
+  }
+.txt2{
+    display: none;
+}
+  .bocs
+  {
+      display: block;
+      position: relative;
+      height: 350px;
+      width: 300px;
+      border: 1px solid red;
+      box-sizing: border-box;
+      box-shadow: 5px 5px 8px gray ;
+      border-radius: 20px;
+      padding-top: 30px;
+
+
+
+  }
+  .bocs1
+  {
+      margin-left: 500px;
+      padding-left: 10px;
+      margin-top: 40px;
+
+  }
+
+  .heading1
+  {
+      padding-left: 55px;
+      color:red;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .middle1
+  {
+      padding-left: 75px ;
+      padding-top:20px ;
+      font-size: 22px;
+      text-decoration: 2px red line-through;
+      color: red;
+}
+.last1
+{
+    font-size: 22px;  
+    padding-left: 70px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon2{
+
+color: tomato;
+font-size: 27px;
+
+}
+.dev
+{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.blar
+{
+    filter: blur(6px);
+}
+.newlist
+{
+    position: absolute;
+    display: block;
+    height: 170px;
+    width: 320px;
+    top: 40%;
+    left: 40%;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px gray;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding-top: 15px;
+    color: tomato;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1
+{
+    visibility: hidden;
+}
+.btn3
+{
+    color:white;
+    background: tomato;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0px;
+    width: 65px;
+}
+.outline
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    /* width: 60px; */
+}
+}
+@media screen and (min-width:0px) and (max-width:360px) {
+
+    .first
+{
+    font-weight:500;
+}
+.second
+{
+    font-weight: 100;
+}
+
+.p1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 60px;
+    
+
+}
+.icon{
+    font-size: 35px;
+    margin-left: 70px;
+
+
+    color: tomato;
+}
+.add
+{
+    font-weight: 350; 
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: none;
+}
+
+.box
+{
+    display: block;
+    height:60px;
+    width: 270px ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 21px;    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.vanish
+{
+    display: none;
+}
+.heading{
+    color: grey;
+}
+.box1
+{
+
+    font-size: 18px;
+    color:grey;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.box2
+{
+
+    font-size: 18px;
+    color:black;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.box3
+{
+
+    font-size: 18px;
+    color:black;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.box4
+{
+
+    font-size: 18px;
+    color:black;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.box5
+{
+
+    font-size: 18px;
+    color:black;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+h1{
+    display: none;
+}
+.sub{
+    display: none;
+}
+
+.sub3{
+    margin-top: 10px;
+    margin-left: 30px;
+    z-index: 1;
+}
+.icon5
+  {
+    font-size: 30px;
+    margin-left: 30px;
+    color: tomato;
+    text-decoration: none;
+}
+.txt{
+   display: none;
+}
+.txt2
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+.bocs
+{
+    display: block;
+    position: relative;
+    height: 350px;
+    width: 270px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 8px gray ;
+    border-radius: 20px;
+    padding-top: 30px;
+
+
+
+}
+.bocs1
+{
+    margin-left: 30px;
+    padding-left: 10px;
+    margin-top: 70px;
+
+}
+
+.heading1
+{
+    padding-left: 30px;
+    color:red;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle1
+{
+    padding-left: 30px ;
+    padding-top:20px ;
+    font-size: 22px;
+    text-decoration: 2px red line-through;
+    color: red;
+}
+.last1
+{
+  font-size: 22px;  
+  padding-left: 30px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon2{
+
+color: tomato;
+font-size: 27px;
+position: absolute;
+bottom: 10px;
+right: 10px;
+
+
+}
+.button2{
+    font-size: 30px;
+   
+    color: tomato;
+    text-decoration: none;
+    
+}
+.button1
+{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.dev{
+    display: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.blar
+{
+    filter: blur(6px);
+
+}
+.newlist{
+    
+    position: absolute;
+    display: block;
+    height: 150px;
+    width: 245px;
+    top: 30%;
+    left: 14%;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px gray;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding-top: 15px;
+    color: tomato;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.outline{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 150px;
+}
+.btn3{
+    color:white;
+    background: tomato;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0px;
+    width: 65px;
+    height: 30px;
+}
+.txt2{
+    font-size: 29px;
+}
+}
+
+@media screen and (min-width:370px) and (max-width:768px)
+ {
+    .first
+    {
+        font-weight:500;
+
+    }
+    .second
+    {
+        font-weight: 100;
+    }
+    
+    .p1
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        margin-left: 90px;
+        margin-top: 60px;
+        
+    
+    }
+    .icon{
+        font-size: 35px;
+        margin-left: 240px;
+    
+    
+        color: tomato;
+    }
+    .add
+    {
+        font-weight: 350; 
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        
+    }
+    
+    .box
+    {
+        display: block;
+        height: 65px;
+        width: 470px ;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px gray;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 21px;    
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    .vanish
+    {
+        display: none;
+    }
+    .heading{
+        color: grey;
+    }
+    .box1
+    {
+    
+        font-size: 18px;
+        color:grey;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .box2
+    {
+    
+        font-size: 18px;
+        color:black;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .box3
+    {
+    
+        font-size: 18px;
+        color:black;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .box4
+    {
+    
+        font-size: 18px;
+        color:black;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .box5
+    {
+    
+        font-size: 18px;
+        color:black;
+        margin-left: 120px;
+        margin-top: 70px;
+    } 
+    h1{
+        display: none;
+    }
+    .sub{
+        display: none;
+    }
+    
+    .sub3{
+        margin-top: 10px;
+        margin-left: 30px;
+        z-index: 1;
+    }
+    .icon5
+      {
+        font-size: 30px;
+        margin-left: 30px;
+        color: tomato;
+        text-decoration: none;
+    }
+    .txt{
+       display: none;
+    }
+    .txt2
+    {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bolder;
+    }
+    .bocs
+    {
+        display: block;
+        position: relative;
+        height: 450px;
+        width: 370px;
+        border: 1px solid red;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 8px gray ;
+        border-radius: 20px;
+        padding-top: 30px;
+    
+    
+    
+    }
+    .bocs1
+    {
+        margin-left: 200px;
+        padding-left: 10px;
+        margin-top: 70px;
+    
+    }
+    
+    .heading1
+    {
+        padding-left: 30px;
+        color:red;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .middle1
+    {
+        padding-left: 30px ;
+        padding-top:20px ;
+        font-size: 32px;
+        text-decoration: 2px red line-through;
+        color: red;
+    }
+    .last1
+    {
+      font-size: 32px;  
+      padding-left: 30px ;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    
+    .icon2{
+    
+    color: tomato;
+    font-size: 37px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+    
+    }
+    input.checkboc
+    {
+        font-size: 50px;
+        height: 20px;
+        width: 20px;
+    }
+    
+.button2{
+    font-size: 50px;
+   
+    color: tomato;
+    text-decoration: none;
+    
+}
+.button1
+{
+    margin-top: 35px;
+    margin-left: 180px;
+}
+.dev{
+    display: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.txt2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.blar{
+
+filter: blur(6px);
+
+}
+.newlist{
+    
+    position: absolute;
+    display: block;
+    height: 150px;
+    width: 245px;
+    top: 30%;
+    left: 14%;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px gray;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding-top: 15px;
+    color: tomato;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.outline{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 150px;
+}
+.btn3{
+    color:white;
+    background: tomato;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0px;
+    width: 65px;
+    height: 30px;
+}
+.txt2{
+    font-size: 29px;
+}
+.blar{
+
+filter: blur(6px);
+
+}
+.newlist{
+    
+    position: absolute;
+    display: block;
+    height: 180px;
+    width: 345px;
+    top: 20%;
+    left: 28%;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px gray;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding-top: 15px;
+    color: tomato;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.outline{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 150px;
+}
+.btn3{
+    color:white;
+    background: tomato;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0px;
+    width: 65px;
+    height: 30px;
+}
+.txt2{
+    font-size: 29px;
+}
+
+}
